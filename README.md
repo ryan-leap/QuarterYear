@@ -1,6 +1,5 @@
 # QuarterYear
-
-QuarteYear is a PowerShell module which makes quarterly (calendar/fiscal year) calculations
+QuarterYear is a PowerShell module which makes it easier to perform quarterly (calendar/fiscal year) calculations
 
 ## Installing
 #### Download from GitHub repository
@@ -22,13 +21,16 @@ Get-Help QuarterYear
 ```
 
 ## Examples
+### Get-QuarterYear
 ```powershell
 # Returns the quarter of the current date for the current calendar year
 Get-QuarterYear
 
 # Returns the quarter of the current date when the (fiscal) year ends June 30th
 Get-QuarterYear -YearEndDate (Get-Date -Month 6 -Day 30)
-
+```
+### Get-QuarterYearDate
+```powershell
 # Returns the end date of the second quarter for the current calendar year
 Get-QuarterYearDate -Quarter 2
 
@@ -51,8 +53,8 @@ Get-QuarterYearDate -Quarter 1 -FirstDay -BusinessDay -BusinessBlackoutDate ((Ge
 
 ## License
 
-This project is licensed under the MIT License.  See [LICENSE.md](LICENSE.md) file for details.
+Licensed under the MIT License.  See [LICENSE](LICENSE.md) file for details.
 
 ## Acknowledgments
 
-* Followed .psm1 template found here: https://github.com/mikefrobbins/Plaster
+* Followed .psm1 PowerShell module template found here: https://github.com/mikefrobbins/Plaster
