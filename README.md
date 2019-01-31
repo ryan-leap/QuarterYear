@@ -5,7 +5,7 @@ QuarterYear is a PowerShell module which makes it easier to perform quarterly (c
 #### Download from GitHub repository
 
 * Download the repository from https://github.com/ryan-leap/QuarterYear
-* Unblock the zip file ((on Windows)- Right Click -> Properties -> [ ] Unblock)
+* Unblock the zip file ((on Windows) Right Click -> Properties -> [v/] Unblock)
 * Extract the QuarterYear folder to a module path (e.g. $home\Documents\WindowsPowerShell\Modules)
 
 ## Usage
